@@ -1,2 +1,15 @@
 /* Dine styles her */
-article {}
+article {
+  padding: 1rem;
+  gap: 1rem;
+  --flow-space: 0.5rlh;
+  h2 {
+    --flow-space: 2rlh;
+  }
+  h3 {
+    --flow-space: 1rlh;
+  }
+  h3 p {
+    --flow-space: 0.25rlh;
+  }
+}
